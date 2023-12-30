@@ -515,8 +515,9 @@ a[href="#studio"]:active {
     height: 40px;
     background-color: transparent;
     border: 1px solid #FFFfff;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.15));
 
+    line-height: 2;
     color: #ffffff;
     font-size: 12px;
     padding-left: 16px;
@@ -546,11 +547,11 @@ a[href="#studio"]:active {
 
     justify-content: center;
     align-items: center;
-    gap: 16px;
 }
 
 .footer-btn-icon {
     fill: currentColor;
+    margin-left: 16px;
 }
 
 
